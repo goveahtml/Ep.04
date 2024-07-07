@@ -1,0 +1,54 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #00BFFF;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #00BFFF;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.controls {
+    margin-bottom: 20px;
+}
+
+.controls button, .controls input {
+    display: block;
+    margin: 5px 0;
+}
+
+button {
+    background-color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #00BFFF;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.result {
+    background-color: white;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#listaFrutas {
+    text-align: left;
+}
+
+input#nuevaFruta {
+    margin-top: 10px;
+    padding: 5px;
+    width: 80%;
+}
